@@ -1,0 +1,7 @@
+data:
+  path: "/dataset/gtzan"
+
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  num_epochs: 50
