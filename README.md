@@ -30,6 +30,9 @@ This repo is for classifying music by genre. Eventually the goal is to use it to
     pip install -r requirements.txt
     ```
 
+3. Create Kaggle API Key
+Go to [Kaggle Setting](https://www.kaggle.com/settings), scroll down to `API` and click `Create New Token`. This should download `kaggle.json`. Move this file to `~/.kaggle/kaggle.json` to use the Kaggle API.
+
 ## Running
 To train the model run,
 ```bash

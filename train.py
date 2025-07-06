@@ -1,10 +1,19 @@
+from data_processors.GtzanProcessor import GtzanProcessor
+
 import yaml
 
-if __name__ == "__main__":
-
-
+def main():
     with open("config/config.yaml", "r") as f:
         config = yaml.safe_load(f)
 
-    gtzan_path = config["data"]["path"]
-    print("GTZAN path:", gtzan_path)
+    path = config["data"]["path"]
+    data_processor = GtzanProcessor(path)
+
+    data_processor.download_data()
+
+
+if __name__ == "__main__":
+    main()
+
+
+    
