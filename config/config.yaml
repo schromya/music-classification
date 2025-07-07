@@ -1,5 +1,5 @@
 data:
-  path: "/dataset/gtzan"
+  path: "data/gtzan"
 
 training:
   batch_size: 32
