@@ -2,9 +2,9 @@ data:
   directory: "data/gtzan"
 
 training:
-  batch_size: 32
+  batch_size: 64
   learning_rate: 0.001
-  num_epochs: 50
+  num_epochs: 500
   train_test_ratio: 0.8
   weight_directory: trained_weights
   weight_file_name: MusicRecNet.pth
